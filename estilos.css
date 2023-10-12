@@ -1,0 +1,131 @@
+body{
+    background-size: 100%, 100%;
+    background-repeat: no-repeat, repeat;
+    background-position: top center, top center;
+    margin: 0px;
+    background-image:url(SololetrasNOfondo.png), url(FondoSinLetra2.png)
+}
+
+h1{
+    text-align: center
+}
+.option-header{
+    text-decoration: none;
+    color: white;
+    border: solid rgb(160, 132, 132);
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 300px;
+    padding: 10px;
+    background-color: black;
+    font-family: 'Gill Sans MT';
+}
+#navar{
+display: flex;
+justify-content: center;
+}
+.option-header:hover{
+background-color: rgb(85, 53, 23);
+
+}
+
+/*.PrimerBloque{
+    margin-top: 100px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 210px;
+    margin-right: 100px;
+    font-family: 'Gill Sans MT';
+    text-decoration: underline;
+    justify-content: center;
+}
+
+.SegundoBloque{
+    margin-top: 100px;
+    display: inline-block;
+    align-items: center;
+    margin-left: 210px;
+    margin-right: 100px;
+    font-family: 'Gill Sans MT';
+    text-decoration: underline;
+    justify-content: center
+}
+
+.TercerBloque{
+    margin-top: 100px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 210px;
+    margin-right: 100px;
+    font-family: 'Gill Sans MT';
+    text-decoration: underline;
+    justify-content: center
+}/*
+
+/*#Video1{
+    margin-left: 50px;
+    display: inline;
+    margin-right: 50px;
+}
+
+#Video2{
+    display: inline;
+    align-items: center;
+}
+
+#Video3{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: inline;
+}*/
+
+#Tema{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    border: solid rgb(160, 132, 132);
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Gill Sans MT';
+    cursor: pointer
+}
+
+#Tema:hover{
+    background-color: rgb(85, 53, 23);
+}
+
+#ContenedorPrincipal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+#PrimerLineaTexto {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-right: 0px;
+}
+
+#PrimerLineaTexto h2 {
+    margin: 0 180px;
+    font-family: 'Gill Sans MT';
+    text-decoration: underline;
+    margin-right: 180px;
+    
+}
+
+#PrimerLineaVideos {
+    display: flex;
+    align-items: center;
+}
+
+#PrimerLineaVideos iframe {
+    margin: 0 50px; 
+}
